@@ -1,0 +1,10 @@
+.navbar a {
+    font-size: 28px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: rgba(0, 0, 248, 0.637);
+    border-radius: 10px;
+}
