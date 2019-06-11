@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import classes from './projects.module.css';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Modal, ModalHeader, ModalBody, Container, Row } from 'reactstrap';
 
 import Project from '../../components/project/project'
 
@@ -20,7 +20,7 @@ class  Projects extends Component {
             project1: {
                 image: crypto,
                 title: 'Crypto App',
-                description: `Coin portfolio tracker app/site. Users are able to 
+                description: `Cryptocurrency tracker app. Users are able to 
                 "Buy", "Sell" and track cryptocurrencies of their choosing.`,
                 links: ["http://www.mycryptoapp.me/", "https://github.com/gjulka/cryptosite-client"]
             },
