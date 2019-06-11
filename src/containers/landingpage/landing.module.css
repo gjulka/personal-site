@@ -1,0 +1,365 @@
+.Landing{
+    height: 100vh;
+    background-color:#000940; 
+    font-family: 'Encode Sans Expanded', sans-serif;
+
+}
+
+.About{
+    position: relative;
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 115px;
+    width: 275px;
+    background: rgba(0, 0, 0, 0.712);
+    border-radius: 10px;
+    z-index: 11;
+}
+
+.About h1 {
+    font-size: 19px;
+}
+
+.About p {
+    font-size: 12px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.About span {
+    color: red;
+}
+
+.ringCloud {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    overflow: hidden;
+}
+
+.cloudImage {
+    height: 175px;
+    width: 325px;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.ringimage {
+    /* border: 1px solid red; */
+    height: 350px;
+    width: 350px;
+    animation: ring-spin infinite 20s linear;
+    overflow: hidden;
+}
+
+@media (min-width: 576px) { 
+    .About{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 175px;
+        width: 295px;
+        background: rgba(0, 0, 0, 0.712);
+        border-radius: 10px;
+        z-index: 11;
+    }
+    
+    .About h1 {
+        font-size: 16px;
+    }
+    
+    .About p {
+        font-size: 13px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%)
+    }
+
+    .cloudImage {
+        height: 225px;
+        width: 375px;
+        /* border: 1px solid red; */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%)
+    }
+    
+    .ringimage {
+        /* border: 1px solid red; */
+        height: 550px;
+        width: 550px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .About{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 225px;
+        width: 550px;
+        background: rgba(0, 0, 0, 0.712);
+        border-radius: 10px;
+        z-index: 11;
+    }
+
+    .About h1 {
+        font-size: 25px;
+    }
+    
+    .About p {
+        font-size: 22px;
+        width: 500px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%)
+    }
+
+    .cloudImage {
+        height: 325px;
+        width: 575px;
+        /* border: 1px solid red; */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%)
+    }
+    
+    .ringimage {
+        /* border: 1px solid red; */
+        height: 650px;
+        width: 650px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .About{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 250px;
+        width: 600px;
+        background: rgba(0, 0, 0, 0.712);
+        border-radius: 10px;
+        z-index: 11;
+    }
+    
+    .About h1 {
+        font-size: 27px;
+    }
+    
+    .About p {
+        font-size: 24px;
+        width: 500px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%)
+    }
+
+    .cloudImage {
+        height: 400px;
+        width: 650px;
+        /* border: 1px solid red; */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%)
+    }
+    
+    .ringimage {
+        /* border: 1px solid red; */
+        height: 725px;
+        width: 725px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .About{
+        position: relative;
+        top: 50%;
+        height: 250px;
+        width: 600px;
+        background: rgba(0, 0, 0, 0.712);
+        border-radius: 10px;
+        z-index: 11;
+    }
+    
+    .About h1 {
+        font-size: 30px;
+    }
+    
+    .About p {
+        font-size: 27px;
+        width: 500px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%)
+    }
+
+    .cloudImage {
+        height: 400px;
+        width: 650px;
+        /* border: 1px solid red; */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%)
+    }
+    
+    .ringimage {
+        /* border: 1px solid red; */
+        height: 750px;
+        width: 750px;
+    }
+}
+
+@media (width: 1440px) { 
+    .About{
+        position: relative;
+        top: 50%;
+        height: 200px;
+        width: 500px;
+        background: rgba(0, 0, 0, 0.712);
+        border-radius: 10px;
+        z-index: 11;
+    }
+    
+    .About h1 {
+        font-size: 28px;
+        margin: 0;
+    }
+    
+    .About p {
+        font-size: 23px;
+        width: 500px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%)
+    }
+
+    .cloudImage {
+        height: 275px;
+        width: 450px;
+        /* border: 1px solid red; */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%)
+    }
+    
+    .ringimage {
+        /* border: 1px solid red; */
+        height: 550px;
+        width: 550px;
+    }
+}
+
+@media (width: 1280px) { 
+    .About{
+        position: relative;
+        top: 50%;
+        height: 175px;
+        width: 425px;
+        background: rgba(0, 0, 0, 0.712);
+        border-radius: 10px;
+        z-index: 11;
+    }
+    
+    .About h1 {
+        font-size: 25px;
+        margin: 0;
+    }
+    
+    .About p {
+        font-size: 18px;
+        width: 425px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%)
+    }
+
+    .cloudImage {
+        height: 250px;
+        width: 430px;
+        /* border: 1px solid red; */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%)
+    }
+    
+    .ringimage {
+        /* border: 1px solid red; */
+        height: 500px;
+        width: 500px;
+    }
+}
+
+
+
+@media (width: 1366px) { 
+    .About{
+        position: relative;
+        top: 50%;
+        height: 175px;
+        width: 425px;
+        background: rgba(0, 0, 0, 0.712);
+        border-radius: 10px;
+        z-index: 11;
+    }
+    
+    .About h1 {
+        font-size: 25px;
+        margin: 0;
+    }
+    
+    .About p {
+        font-size: 18px;
+        width: 425px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%)
+    }
+
+    .cloudImage {
+        height: 250px;
+        width: 430px;
+        /* border: 1px solid red; */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%)
+    }
+    
+    .ringimage {
+        /* border: 1px solid red; */
+        height: 500px;
+        width: 500px;
+    }
+}
+
+
+@keyframes ring-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+

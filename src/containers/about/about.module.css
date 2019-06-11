@@ -1,0 +1,834 @@
+.AboutPage {
+    height: 100vh;
+    /* background-color: orange; */
+    text-align: center;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.AboutPage h1 {
+    position: relative;
+    top: 10%;
+}
+
+.personalDiv {
+    /* border: 1px solid red; */
+    position: relative;
+    height: 225px;
+    width: 300px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.personalImage {
+    /* border: 1px greenyellow solid; */
+    height: 50%;
+}
+
+.personalIcon {
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+    background-image: url(../../assets/profilepic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.personalLinks {
+    /* border: 1px greenyellow solid; */
+    text-align: center;
+    height: 50%;
+}
+
+.personalLinks a {
+    height: 64px;
+    width: 64px;
+    padding: 10px;
+}
+
+ion-icon {
+    font-size: 64px;
+    color: black;
+}
+
+.skillsList {
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.skillsList h3 {
+    font-size: 25px;
+
+}
+.skillsList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    column-count: 2;
+    /* border: 1px solid red; */
+    margin-left: 25px;
+}
+
+.skillsList li {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.skillsList img {
+    height: 25px;
+    width: 25px;
+    padding-right: 5px;
+}
+
+/* Small devices (landscape phones, 576px and up */ 
+@media (min-width: 576px) { 
+    .AboutPage {
+        height: 100vh;
+        /* background-color: orange; */
+    }
+
+    .personalDiv {
+        /* border: 1px solid red; */
+        position: relative;
+        height: 225px;
+        width: 300px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalImage {
+        /* border: 1px greenyellow solid; */
+        height: 50%;
+    }
+    
+    .personalIcon {
+        height: 100px;
+        width: 100px;
+        border-radius: 150px;
+        background-image: url(../../assets/profilepic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalLinks {
+        /* border: 1px greenyellow solid; */
+        height: 50%;
+        text-align: center;
+    }
+    
+    .personalLinks a{
+        height: 64px;
+        width: 64px;
+        padding: 10px;
+    }
+    
+    ion-icon {
+        font-size: 64px;
+        color: black;
+    }
+    
+    .skillsList {
+        /* border: 1px solid red; */
+        height: 200px;
+        width: 300px;
+        position: relative;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .skillsList h3 {
+        font-size: 40px;
+    }
+    .skillsList ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        column-count: 2;
+        /* border: 1px solid red; */
+        margin-left: 25px;
+    }
+    
+    .skillsList li {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-bottom: 5px;
+    }
+    
+    .skillsList img {
+        height: 25px;
+        width: 25px;
+        padding-right: 5px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .AboutPage {
+        height: 100vh;
+        /* background-color: orange; */
+    }
+
+    .personalDiv {
+        /* border: 1px solid red; */
+        position: relative;
+        height: 250px;
+        width: 300px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalImage {
+        /* border: 1px greenyellow solid; */
+        height: 50%;
+    }
+    
+    .personalIcon {
+        height: 130px;
+        width: 130px;
+        border-radius: 150px;
+        background-image: url(../../assets/profilepic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalLinks {
+        /* border: 1px greenyellow solid; */
+        height: 50%;
+        text-align: center;
+    }
+    
+    .personalLinks a{
+        height: 72px;
+        width: 72px;
+        padding: 14px;
+    }
+    
+    ion-icon {
+        font-size: 72px;
+        color: black;
+    }
+    
+    .skillsList {
+        /* border: 1px solid red; */
+        height: 200px;
+        width: 500px;
+        position: relative;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .skillsList h3 {
+        font-size: 30px;
+    }
+    .skillsList ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        column-count: 2;
+        /* border: 1px solid red; */
+        margin-left: 40px;
+    }
+    
+    .skillsList li {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-bottom: 5px;
+        font-size: 25px;
+    }
+    
+    .skillsList img {
+        height: 50px;
+        width: 50px;
+        padding-right: 5px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .AboutPage {
+        height: 100vh;
+        /* background-color: orange; */
+    }
+
+    .personalDiv {
+        /* border: 1px solid red; */
+        position: relative;
+        height: 250px;
+        width: 300px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalImage {
+        /* border: 1px greenyellow solid; */
+        height: 50%;
+    }
+    
+    .personalIcon {
+        height: 130px;
+        width: 130px;
+        border-radius: 150px;
+        background-image: url(../../assets/profilepic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalLinks {
+        /* border: 1px greenyellow solid; */
+        height: 50%;
+        text-align: center;
+    }
+    
+    .personalLinks a{
+        height: 72px;
+        width: 72px;
+        padding: 14px;
+    }
+    
+    ion-icon {
+        font-size: 72px;
+        color: black;
+    }
+    
+    .skillsList {
+        /* border: 1px solid red; */
+        height: 200px;
+        width: 500px;
+        position: relative;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .skillsList h3 {
+        font-size: 30px;
+    }
+    .skillsList ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        column-count: 2;
+        /* border: 1px solid red; */
+        margin-left: 40px;
+    }
+    
+    .skillsList li {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-bottom: 5px;
+        font-size: 25px;
+    }
+    
+    .skillsList img {
+        height: 50px;
+        width: 50px;
+        padding-right: 5px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .AboutPage {
+        height: 100vh;
+        /* background-color: orange; */
+    }
+
+    .personalDiv {
+        /* border: 1px solid red; */
+        position: relative;
+        height: 300px;
+        width: 500px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalImage {
+        /* border: 1px greenyellow solid; */
+        height: 50%;
+    }
+    
+    .personalIcon {
+        height: 150px;
+        width: 150px;
+        border-radius: 150px;
+        background-image: url(../../assets/profilepic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalLinks {
+        /* border: 1px greenyellow solid; */
+        text-align: center;
+        height: 50%; 
+    }
+    
+    .personalLinks a{
+        height: 88px;
+        width: 88px;
+        padding: 10px;
+    }
+    
+    ion-icon {
+        font-size: 88px;
+        color: black;
+    }
+    
+    .skillsList {
+        /* border: 1px solid red; */
+        height: 300px;
+        width: 500px;
+        position: relative;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .skillsList h3 {
+        font-size: 40px;
+    }
+    
+    .skillsList ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        column-count: 2;
+        /* border: 1px solid red; */
+        margin-left: 50px;
+    }
+    
+    .skillsList li {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-bottom: 5px;
+        font-size: 25px;
+    }
+    
+    .skillsList img {
+        height: 50px;
+        width: 50px;
+        padding-right: 5px;
+    }
+}
+
+@media (width: 1440px) { 
+    .AboutPage {
+        height: 100vh;
+        /* background-color: orange; */
+    }
+
+    .AboutPage h1 {
+        font-size: 30px;
+        position: relative;
+        top: 12.5%;
+    }
+
+    .personalDiv {
+        /* border: 1px solid red; */
+        position: relative;
+        height: 200px;
+        width: 400px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalImage {
+        /* border: 1px greenyellow solid; */
+        height: 50%;
+    }
+    
+    .personalIcon {
+        height: 100px;
+        width: 100px;
+        border-radius: 150px;
+        background-image: url(../../assets/profilepic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalLinks {
+        /* border: 1px greenyellow solid; */
+        text-align: center;
+        height: 50%; 
+    }
+    
+    .personalLinks a{
+        height: 72px;
+        width: 72px;
+        padding: 10px;
+    }
+    
+    ion-icon {
+        font-size: 72px;
+        color: black;
+    }
+    
+    .skillsList {
+        /* border: 1px solid red; */
+        height: 300px;
+        width: 500px;
+        position: relative;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .skillsList h3 {
+        font-size: 30px;
+    }
+    
+    .skillsList ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        column-count: 2;
+        /* border: 1px solid red; */
+        margin-left: 75px;
+    }
+    
+    .skillsList li {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    
+    .skillsList img {
+        height: 35px;
+        width: 35px;
+        padding-right: 5px;
+    }
+}
+
+@media (width: 1280px) { 
+    .AboutPage {
+        height: 100vh;
+        /* background-color: orange; */
+    }
+
+    .AboutPage h1 {
+        font-size: 30px;
+        position: relative;
+        top: 12.5%;
+    }
+
+    .personalDiv {
+        /* border: 1px solid red; */
+        position: relative;
+        height: 200px;
+        width: 400px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalImage {
+        /* border: 1px greenyellow solid; */
+        height: 50%;
+    }
+    
+    .personalIcon {
+        height: 100px;
+        width: 100px;
+        border-radius: 150px;
+        background-image: url(../../assets/profilepic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalLinks {
+        /* border: 1px greenyellow solid; */
+        text-align: center;
+        height: 50%; 
+    }
+    
+    .personalLinks a{
+        height: 72px;
+        width: 72px;
+        padding: 10px;
+    }
+    
+    ion-icon {
+        font-size: 72px;
+        color: black;
+    }
+    
+    .skillsList {
+        /* border: 1px solid red; */
+        height: 300px;
+        width: 500px;
+        position: relative;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .skillsList h3 {
+        font-size: 30px;
+    }
+    
+    .skillsList ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        column-count: 2;
+        /* border: 1px solid red; */
+        margin-left: 75px;
+    }
+    
+    .skillsList li {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    
+    .skillsList img {
+        height: 35px;
+        width: 35px;
+        padding-right: 5px;
+    }
+}
+
+@media (height: 551px) { 
+    .AboutPage {
+        height: 100vh;
+        /* background-color: orange; */
+    }
+
+    .AboutPage h1 {
+        font-size: 30px;
+        position: relative;
+        top: 12.5%;
+    }
+
+    .personalDiv {
+        /* border: 1px solid red; */
+        position: relative;
+        height: 200px;
+        width: 400px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalImage {
+        /* border: 1px greenyellow solid; */
+        height: 50%;
+    }
+    
+    .personalIcon {
+        height: 100px;
+        width: 100px;
+        border-radius: 150px;
+        background-image: url(../../assets/profilepic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalLinks {
+        /* border: 1px greenyellow solid; */
+        text-align: center;
+        height: 50%; 
+    }
+    
+    .personalLinks a{
+        height: 72px;
+        width: 72px;
+        padding: 10px;
+    }
+    
+    ion-icon {
+        font-size: 72px;
+        color: black;
+    }
+    
+    .skillsList {
+        /* border: 1px solid red; */
+        height: 300px;
+        width: 500px;
+        position: relative;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .skillsList h3 {
+        font-size: 30px;
+    }
+    
+    .skillsList ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        column-count: 2;
+        /* border: 1px solid red; */
+        margin-left: 75px;
+    }
+    
+    .skillsList li {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    
+    .skillsList img {
+        height: 35px;
+        width: 35px;
+        padding-right: 5px;
+    }
+}
+
+@media (width: 1366px) { 
+    .AboutPage {
+        height: 100vh;
+        /* background-color: orange; */
+    }
+
+    .AboutPage h1 {
+        font-size: 30px;
+        position: relative;
+        top: 12.5%;
+    }
+
+    .personalDiv {
+        /* border: 1px solid red; */
+        position: relative;
+        height: 200px;
+        width: 400px;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalImage {
+        /* border: 1px greenyellow solid; */
+        height: 50%;
+    }
+    
+    .personalIcon {
+        height: 100px;
+        width: 100px;
+        border-radius: 150px;
+        background-image: url(../../assets/profilepic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .personalLinks {
+        /* border: 1px greenyellow solid; */
+        text-align: center;
+        height: 50%; 
+    }
+    
+    .personalLinks a{
+        height: 72px;
+        width: 72px;
+        padding: 10px;
+    }
+    
+    ion-icon {
+        font-size: 72px;
+        color: black;
+    }
+    
+    .skillsList {
+        /* border: 1px solid red; */
+        height: 300px;
+        width: 500px;
+        position: relative;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .skillsList h3 {
+        font-size: 30px;
+    }
+    
+    .skillsList ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        column-count: 2;
+        /* border: 1px solid red; */
+        margin-left: 75px;
+    }
+    
+    .skillsList li {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    
+    .skillsList img {
+        height: 35px;
+        width: 35px;
+        padding-right: 5px;
+    }
+}

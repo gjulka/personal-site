@@ -1,0 +1,440 @@
+.ContactPage {
+    height: 100vh;
+    background-color: #000940;
+    font-family: 'Encode Sans Expanded', sans-serif;
+
+}
+
+.ContactDiv {
+    /* border: 1px solid white; */
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Form {
+    position: relative;
+    padding: 15px;
+}
+
+.Form label {
+    color: white;
+}
+ 
+input[type=text],input[type=email], select {
+    width: 100%;
+    height: 35px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+textarea {
+    width: 100%;
+    height: 75px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+ 
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .ContactDiv {
+        /* border: 1px solid white; */
+        height: 600px;
+        width: 500px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .ContactDiv h1 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        color: black;
+    }
+    
+    .Form {
+        position: relative;
+        padding: 15px;
+    }
+    
+     
+    input[type=text],input[type=email], select, textarea {
+        width: 100%;
+         padding: 12px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
+         margin-top: 6px;
+         margin-bottom: 16px;
+    }
+     
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .ContactDiv {
+        /* border: 1px solid white; */
+        height: 600px;
+        width: 500px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .ContactDiv h1 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        color: black;
+    }
+    
+    .Form {
+        position: relative;
+        padding: 15px;
+    }
+    
+     
+    input[type=text],input[type=email], select, textarea {
+        width: 100%;
+         padding: 12px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
+         margin-top: 6px;
+         margin-bottom: 16px;
+    }
+     
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .ContactDiv {
+        /* border: 1px solid white; */
+        height: 600px;
+        width: 500px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .ContactDiv h1 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        color: black;
+    }
+    
+    .Form {
+        position: relative;
+        padding: 15px;
+    }
+    
+     
+    input[type=text],input[type=email], select, textarea {
+        width: 100%;
+         padding: 12px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
+         margin-top: 6px;
+         margin-bottom: 16px;
+    }
+     
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .ContactDiv {
+        /* border: 1px solid white; */
+        height: 600px;
+        width: 500px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .ContactDiv h1 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        color: black;
+    }
+    
+    .Form {
+        position: relative;
+        padding: 15px;
+    }
+    
+     
+    input[type=text],input[type=email], select, textarea {
+        width: 100%;
+         padding: 12px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
+         margin-top: 6px;
+         margin-bottom: 16px;
+    }
+     
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+    
+}
+
+
+@media (width: 1440px) {
+    .ContactDiv {
+        /* border: 1px solid white; */
+        height: 600px;
+        width: 500px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .ContactDiv h1 {
+        font-size: 30px;
+        position: relative;
+        top: 10%;
+    }
+    
+    .Form {
+        position: relative;
+        padding: 15px;
+        top: 10%;
+    }
+    
+     
+    input[type=text],input[type=email], select, textarea {
+        width: 100%;
+         padding: 12px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
+         margin-top: 6px;
+         margin-bottom: 16px;
+    }
+     
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+}
+
+@media (width: 1280px) {
+    .ContactDiv {
+        /* border: 1px solid white; */
+        height: 600px;
+        width: 500px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .ContactDiv h1 {
+        font-size: 30px;
+        position: relative;
+        top: 15%;
+    }
+    
+    .Form {
+        position: relative;
+        padding: 15px;
+        top: 15%;
+    }
+    
+     
+    input[type=text],input[type=email], select, textarea {
+        width: 100%;
+         padding: 12px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
+         margin-top: 6px;
+         margin-bottom: 16px;
+    }
+     
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+}
+
+
+@media (width: 1366px) {
+    .ContactDiv {
+        /* border: 1px solid white; */
+        height: 600px;
+        width: 500px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .ContactDiv h1 {
+        font-size: 30px;
+        position: relative;
+        top: 15%;
+    }
+    
+    .Form {
+        position: relative;
+        padding: 15px;
+        top: 15%;
+    }
+    
+     
+    input[type=text],input[type=email], select, textarea {
+        width: 100%;
+         padding: 12px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
+         margin-top: 6px;
+         margin-bottom: 16px;
+    }
+     
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+}

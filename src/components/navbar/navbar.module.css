@@ -1,10 +1,123 @@
+.Navbar {
+    position: fixed;
+    width: 100vw;
+    z-index: 15; 
+    background-color: beige;
+    height: 75px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navItem {
+    margin: 5px;
+}
+
 .navbar a {
-    font-size: 28px;
+    font-size: 18px;
     cursor: pointer;
     text-decoration: none;
+    padding: 5px;
 }
 
 .navbar a:hover {
     background: rgba(0, 0, 248, 0.637);
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+@media (min-width: 576px) { 
+    .navbar {
+        display: flex;
+    }
+    
+    .navItem {
+        margin: 5px;
+    }
+    
+    .navbar a {
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 5px;
+    }
+    
+    .navbar a:hover {
+        background: rgba(0, 0, 248, 0.637);
+        border-radius: 5px;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .navbar {
+        display: flex;
+    }
+    
+    .navItem {
+        margin: 5px;
+    }
+    
+    .navbar a {
+        font-size: 25px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 5px;
+    }
+    
+    .navbar a:hover {
+        background: rgba(0, 0, 248, 0.637);
+        border-radius: 5px;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .navbar {
+        display: flex;
+    }
+    
+    .navItem {
+        margin: 5px;
+    }
+    
+    .navbar a {
+        font-size: 30px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 5px;
+    }
+    
+    .navbar a:hover {
+        background: rgba(0, 0, 248, 0.637);
+        border-radius: 5px;
+    }
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .navbar {
+        display: flex;
+    }
+    
+    .navItem {
+        margin: 0 50px;
+    }
+    
+    .navbar a {
+        font-size: 30px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 5px;
+    }
+    
+    .navbar a:hover {
+        background: rgba(0, 0, 248, 0.637);
+        border-radius: 5px;
+    }
+    
 }
