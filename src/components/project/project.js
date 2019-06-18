@@ -3,10 +3,10 @@ import classes from './project.module.css';
 
 function Project(props) {
     return(
-        <div id={props.id} className={classes.project}>
-            <li className="list-group-item list-group-item-dark">
-                <img src={props.image}/> 
-                <div className={classes.Overlay}>
+        <div id={props.id} className={classes.column}>
+            <div className={classes.content}>
+                <img src={props.image} alt='' />
+                <div className={classes.overlay}>
                     <div className={classes.details}>
                         <h1><u>{props.title}</u></h1>
                         <div className={classes.learnmore}>
@@ -16,7 +16,7 @@ function Project(props) {
                         </div>
                     </div>
                 </div>
-            </li>
+            </div>
         </div>
     )
 }

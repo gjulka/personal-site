@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import classes from './projects.module.css';
-import { Modal, ModalHeader, ModalBody, Container, Row } from 'reactstrap';
+import { Modal, ModalHeader, ModalBody } from 'reactstrap';
 
 import Project from '../../components/project/project'
 
@@ -101,25 +101,23 @@ class  Projects extends Component {
         return( 
             <div id="projects" className={classes.ProjectsPage}>
                 <h1><u>PROJECTS</u></h1>
-                <div className={classes.projectsDiv}>
-                    <ul id='projectList' className="list-group">
-                        <Project 
-                            image={crypto}
-                            title={'Crypto App'}
-                            toggleButton={this.toggleP1}
-                         />
-                         <Project 
-                            image={angimg}
-                            title={'ANG Flooring'}
-                            toggleButton={this.toggleP2}
-                         />
-                         <Project 
-                            image={discordimg}
-                            title={'Discord Bot'}
-                            toggleButton={this.toggleP3}
-                         />
-                    </ul>
-                </div>
+                <div className={classes.row}>
+                    <Project 
+                        image={crypto}
+                        title={'Crypto App'}
+                        toggleButton={this.toggleP1}
+                    />
+                    <Project 
+                        image={angimg}
+                        title={'ANG Flooring'}
+                        toggleButton={this.toggleP2}
+                    />
+                    <Project 
+                        image={discordimg}
+                        title={'Discord Bot'}
+                        toggleButton={this.toggleP3}
+                    />
+                </div> 
                 <Modal id='projedctsModal' isOpen={this.state.modal} toggle={this.toggle} scrollable={true} >
                     <ModalHeader toggle={this.toggle}>{this.state.title}</ModalHeader>
                     <ModalBody><img alt='' className={classes.modalImage} src={this.state.image}/></ModalBody>

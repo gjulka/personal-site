@@ -1,12 +1,15 @@
-.project {
-    /* border: 1px solid red; */
+.column {
     position: relative;
-    height: 100%;
+    float: left;
     width: 100%;
-    padding: 5px;
+    padding: 2px;
 }
 
-.Overlay {
+.content img {
+    width: 100%;
+}
+
+.overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -18,7 +21,7 @@
     transition: .5s ease; 
 }
 
-.project:hover .Overlay {
+.content:hover .overlay {
     height: 100%;
 }
 
@@ -61,7 +64,7 @@
 }
 
 .learnmorebutton h2 {
-    font-size: 23px;
+    font-size: 18px;
     position: relative;
     padding: 0;
     margin: 0;
@@ -70,9 +73,18 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+    .column {
+        position: relative;
+        float: left;
+        width: 100%;
+        padding: 2px;
+    }
     
-
-    .Overlay {
+    .content img {
+        width: 100%;
+    }
+    
+    .overlay {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -84,7 +96,7 @@
         transition: .5s ease; 
     }
     
-    .project:hover .Overlay {
+    .content:hover .overlay {
         height: 100%;
     }
 
@@ -114,14 +126,30 @@
         border: none;
         width: 100%;
         color: black;
+    }
+
+    .learnmorebutton h2 {
+        font-size: 23px;
+        position: relative;
+        padding: 0;
+        margin: 0;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+    .column {
+        position: relative;
+        float: left;
+        width: 100%;
+        padding: 2px;
+    }
     
-
-    .Overlay {
+    .content img {
+        width: 100%;
+    }
+    
+    .overlay {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -133,7 +161,7 @@
         transition: .5s ease; 
     }
     
-    .project:hover .Overlay {
+    .content:hover .overlay {
         height: 100%;
     }
 
@@ -163,14 +191,30 @@
         border: none;
         width: 100%;
         color: black;
+    }
+
+    .learnmorebutton h2 {
+        font-size: 23px;
+        position: relative;
+        padding: 0;
+        margin: 0;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    .column {
+        position: relative;
+        float: left;
+        width: 33.33%;
+        padding: 2px;
+    }
     
-
-    .Overlay {
+    .content img {
+        width: 100%;
+    }
+    
+    .overlay {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -182,7 +226,7 @@
         transition: .5s ease; 
     }
     
-    .project:hover .Overlay {
+    .content:hover .overlay {
         height: 100%;
     }
 
@@ -212,14 +256,32 @@
         border: none;
         width: 100%;
         color: black;
+    }
+
+    .learnmorebutton h2 {
+        font-size: 18px;
+        position: relative;
+        padding: 0;
+        margin: 0;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     
-
-    .Overlay {
+    
+    .column {
+        position: relative;
+        float: left;
+        width: 33.33%;
+        padding: 2px;
+    }
+    
+    .content img {
+        width: 100%;
+    }
+    
+    .overlay {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -231,7 +293,7 @@
         transition: .5s ease; 
     }
     
-    .project:hover .Overlay {
+    .content:hover .overlay {
         height: 100%;
     }
 
@@ -268,6 +330,6 @@
     }
     
     .learnmorebutton h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 }

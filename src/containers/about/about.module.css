@@ -1,6 +1,6 @@
 .AboutPage {
     height: 100vh;
-    /* background-color: orange; */
+    background-color: rgb(231, 231, 231);
     text-align: center;
     font-family: 'Encode Sans Expanded', sans-serif;
 }
@@ -42,6 +42,27 @@
     /* border: 1px greenyellow solid; */
     text-align: center;
     height: 50%;
+}
+
+.personalLinks h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.linksNames {
+    /* border: 1px solid red; */
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%)
+}
+.middlespan {
+    padding-right: 25px;
+}
+
+.leftspan {
+    float: left;
+    margin-right: 15px;
 }
 
 .personalLinks a {
@@ -132,6 +153,22 @@ ion-icon {
         height: 50%;
         text-align: center;
     }
+
+    .linksNames {
+        /* border: 1px solid red; */
+        width: 80%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%)
+    }
+    .middlespan {
+        padding-right: 25px;
+    }
+    
+    .leftspan {
+        float: left;
+        margin-right: 15px;
+    }
     
     .personalLinks a{
         height: 64px;
@@ -219,6 +256,10 @@ ion-icon {
         /* border: 1px greenyellow solid; */
         height: 50%;
         text-align: center;
+    }
+    .middlespan {
+        padding-left: 40px;
+        padding-right: 50px;
     }
     
     .personalLinks a{
@@ -309,6 +350,10 @@ ion-icon {
         height: 50%;
         text-align: center;
     }
+    .middlespan {
+        padding-left: 40px;
+        padding-right: 50px;
+    }
     
     .personalLinks a{
         height: 72px;
@@ -394,9 +439,24 @@ ion-icon {
     }
     
     .personalLinks {
-        /* border: 1px greenyellow solid; */
+        /* border: 1px red solid; */
         text-align: center;
         height: 50%; 
+    }
+
+    .linksNames {
+        /* border: 1px solid red; */
+        height: 50px;
+        display: flex;
+        width: 55%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%)
+    }
+
+    .middlespan {
+        padding-left: 40px;
+        padding-right: 50px;
     }
     
     .personalLinks a{
@@ -494,6 +554,10 @@ ion-icon {
         text-align: center;
         height: 50%; 
     }
+    .middlespan {
+        padding-left: 40px;
+        padding-right: 50px;
+    }
     
     .personalLinks a{
         height: 72px;
@@ -589,6 +653,10 @@ ion-icon {
         /* border: 1px greenyellow solid; */
         text-align: center;
         height: 50%; 
+    }
+    .middlespan {
+        padding-left: 40px;
+        padding-right: 50px;
     }
     
     .personalLinks a{
@@ -686,6 +754,10 @@ ion-icon {
         text-align: center;
         height: 50%; 
     }
+    .middlespan {
+        padding-left: 40px;
+        padding-right: 50px;
+    }
     
     .personalLinks a{
         height: 72px;
@@ -782,6 +854,11 @@ ion-icon {
         text-align: center;
         height: 50%; 
     }
+    .middlespan {
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+
     
     .personalLinks a{
         height: 72px;

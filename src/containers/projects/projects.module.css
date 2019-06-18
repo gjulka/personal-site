@@ -2,7 +2,7 @@
     height: 100vh;
     text-align: center;
     font-family: 'Encode Sans Expanded', sans-serif;
-
+    background-color: rgb(231, 231, 231);
 }
 
 .ProjectsPage h1 {
@@ -10,17 +10,14 @@
     top: 10%;
 }
 
-.projectsDiv {
-    /* border: 1px solid red; */
+.row {
     position: relative;
+    left: 50%;
     top: 50%;
-    transform: translate(0, -50%);
-    display: flex;
-    justify-content: center;
-}
-
-.projectsDiv img {
+    transform: translate(-50%, -50%);
     width: 300px;
+    height: 500px;
+    overflow: auto;
 }
 
 .modalImage {
@@ -54,17 +51,14 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-    .projectsDiv {
-        /* border: 1px solid red; */
+    .row {
         position: relative;
-        top: 40%;
-        transform: translate(0, -50%);
-        display: flex;
-        justify-content: center;
-    }
-    
-    .projectsDiv img {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         width: 300px;
+        height: 500px;
+        overflow: auto;
     }
 
     .modalImage {
@@ -98,17 +92,14 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    .projectsDiv {
-        /* border: 1px solid red; */
+    .row {
         position: relative;
-        top: 40%;
-        transform: translate(0, -50%);
-        display: flex;
-        justify-content: center;
-    }
-    
-    .projectsDiv img {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         width: 300px;
+        height: 500px;
+        overflow: auto;
     }
 
     .modalImage {
@@ -142,17 +133,14 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .projectsDiv {
-        /* border: 1px solid red; */
+    .row {
         position: relative;
-        top: 40%;
-        transform: translate(0, -50%);
-        display: flex;
-        justify-content: center;
-    }
-    
-    .projectsDiv img {
-        width: 450px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 800px;
+        height: 500px;
+        overflow: auto;
     }
 
     .modalImage {
@@ -192,17 +180,14 @@
         top: 15%;
     }
 
-    .projectsDiv {
-        /* border: 1px solid red; */
+    .row {
         position: relative;
+        left: 50%;
         top: 50%;
-        transform: translate(0, -50%);
-        display: flex;
-        justify-content: center;
-    }
-    
-    .projectsDiv img {
-        width: 425px;
+        transform: translate(-50%, -50%);
+        width: 75%;
+        height: 500px;
+        overflow: auto;
     }
 
     .modalImage {
@@ -241,17 +226,14 @@
         top: 20%;
     }
 
-    .projectsDiv {
-        /* border: 1px solid red; */
+    .row {
         position: relative;
-        top: 50%;
-        transform: translate(0, -50%);
-        display: flex;
-        justify-content: center;
-    }
-
-    .projectsDiv img {
-        width: 100%;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 500px;
+        overflow: auto;
     }
 
     .modalImage {
@@ -290,17 +272,14 @@
         top: 20%;
     }
 
-    .projectsDiv {
-        /* border: 1px solid red; */
+    .row {
         position: relative;
-        top: 50%;
-        transform: translate(0, -50%);
-        display: flex;
-        justify-content: center;
-    }
-
-    .projectsDiv img {
-        width: 100%;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 500px;
+        overflow: auto;
     }
 
     .modalImage {
@@ -339,17 +318,14 @@
         top: 15%;
     }
 
-    .projectsDiv {
-        /* border: 1px solid red; */
+    .row {
         position: relative;
-        top: 50%;
-        transform: translate(0, -50%);
-        display: flex;
-        justify-content: center;
-    }
-
-    .projectsDiv img {
-        width: 425px;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: 500px;
+        overflow: auto;
     }
 
     .modalImage {

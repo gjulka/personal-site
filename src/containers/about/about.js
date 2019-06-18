@@ -22,6 +22,11 @@ function About() {
                     <a href='https://drive.google.com/open?id=1C5DgNfE0-18yAXUMSnJ-QeCj3EKbSUsv' target="_blank" rel="noopener noreferrer"><ion-icon name="document"></ion-icon></a>
                     <a href='https://www.linkedin.com/in/gaurav-julka-253294aa/' target='_blank' rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a>
                     <a href='https://github.com/gjulka?tab=repositories' target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon></a>
+                    <div className={classes.linksNames}>
+                        <span className={classes.leftspan}>Resume</span>
+                        <span className={classes.middlespan}>LinkedIn</span>
+                        <span>Github</span>
+                    </div>
                 </div>
             </div>
             <div className={classes.skillsList}>
