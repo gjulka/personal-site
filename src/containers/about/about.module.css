@@ -44,25 +44,18 @@
     height: 50%;
 }
 
-.personalLinks h6 {
-    padding: 0;
-    margin: 0;
-}
-
-.linksNames {
+.personalLinksList {
+    list-style: none;
     /* border: 1px solid red; */
-    width: 80%;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%)
-}
-.middlespan {
-    padding-right: 25px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
 }
 
-.leftspan {
-    float: left;
-    margin-right: 15px;
+.personalLinksList li {
+    padding: 10px;
 }
 
 .personalLinks a {
@@ -154,20 +147,18 @@ ion-icon {
         text-align: center;
     }
 
-    .linksNames {
+    .personalLinksList {
+        list-style: none;
         /* border: 1px solid red; */
-        width: 80%;
-        position: relative;
-        left: 50%;
-        transform: translate(-50%)
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+
     }
-    .middlespan {
-        padding-right: 25px;
-    }
-    
-    .leftspan {
-        float: left;
-        margin-right: 15px;
+
+    .personalLinksList li {
+        padding: 10px;
     }
     
     .personalLinks a{
@@ -257,11 +248,21 @@ ion-icon {
         height: 50%;
         text-align: center;
     }
-    .middlespan {
-        padding-left: 40px;
-        padding-right: 50px;
+
+    .personalLinksList {
+        list-style: none;
+        /* border: 1px solid red; */
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+
     }
-    
+
+    .personalLinksList li {
+        padding: 0px;
+    }
+
     .personalLinks a{
         height: 72px;
         width: 72px;
@@ -350,11 +351,22 @@ ion-icon {
         height: 50%;
         text-align: center;
     }
-    .middlespan {
-        padding-left: 40px;
-        padding-right: 50px;
-    }
     
+    .personalLinksList {
+        list-style: none;
+        /* border: 1px solid red; */
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        position: relative;
+        top: -15%;
+    }
+
+    .personalLinksList li {
+        padding: 10px;
+    }
+
     .personalLinks a{
         height: 72px;
         width: 72px;
@@ -404,7 +416,7 @@ ion-icon {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1600px) { 
     .AboutPage {
         height: 100vh;
         /* background-color: orange; */
@@ -444,19 +456,19 @@ ion-icon {
         height: 50%; 
     }
 
-    .linksNames {
+    .personalLinksList {
+        list-style: none;
         /* border: 1px solid red; */
-        height: 50px;
         display: flex;
-        width: 55%;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
         position: relative;
-        left: 50%;
-        transform: translate(-50%)
+        top: 5%;
     }
 
-    .middlespan {
-        padding-left: 40px;
-        padding-right: 50px;
+    .personalLinksList li {
+        padding: 10px;
     }
     
     .personalLinks a{
@@ -554,9 +566,19 @@ ion-icon {
         text-align: center;
         height: 50%; 
     }
-    .middlespan {
-        padding-left: 40px;
-        padding-right: 50px;
+    
+    .personalLinksList {
+        list-style: none;
+        /* border: 1px solid red; */
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+
+    }
+
+    .personalLinksList li {
+        padding: 10px;
     }
     
     .personalLinks a{
@@ -654,9 +676,19 @@ ion-icon {
         text-align: center;
         height: 50%; 
     }
-    .middlespan {
-        padding-left: 40px;
-        padding-right: 50px;
+    
+    .personalLinksList {
+        list-style: none;
+        /* border: 1px solid red; */
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+
+    }
+
+    .personalLinksList li {
+        padding: 10px;
     }
     
     .personalLinks a{
@@ -754,9 +786,20 @@ ion-icon {
         text-align: center;
         height: 50%; 
     }
-    .middlespan {
-        padding-left: 40px;
-        padding-right: 50px;
+    
+    
+    .personalLinksList {
+        list-style: none;
+        /* border: 1px solid red; */
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+
+    }
+
+    .personalLinksList li {
+        padding: 10px;
     }
     
     .personalLinks a{
@@ -854,9 +897,21 @@ ion-icon {
         text-align: center;
         height: 50%; 
     }
-    .middlespan {
-        padding-left: 40px;
-        padding-right: 50px;
+    
+    
+    .personalLinksList {
+        list-style: none;
+        /* border: 1px solid red; */
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        position: relative;
+        top: 10%;
+    }
+
+    .personalLinksList li {
+        padding: 10px;
     }
 
     

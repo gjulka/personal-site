@@ -6,6 +6,7 @@ import Project from '../../components/project/project'
 
 
 import CryptoIcon from '../../assets/cryptocurrency.svg'
+import ANGIcon from '../../assets/parquet.svg'
 
 import crypto from '../../assets/yourcrypto-site.png'
 import discordimg from '../../assets/apexbot.png'
@@ -30,7 +31,7 @@ class  Projects extends Component {
                 description: `Re-imagining a local businesses' old website and create something with a more modern feel as well as adding more 
                 functionality in terms of customer engagement. 
                 (Unavailable on the web as of now, but code is reviewable on github.)`,
-                links: ['', 'https://github.com/gjulka/angflooring' ]
+                links: ['http://angflooring.s3-website.us-east-2.amazonaws.com/', 'https://github.com/gjulka/angflooring' ]
             },
             project3: {
                 image: discordimg,
@@ -43,7 +44,6 @@ class  Projects extends Component {
             image: null,
             description: '',
             links: []
-            
         };
     
         this.toggle = this.toggle.bind(this);
@@ -94,6 +94,13 @@ class  Projects extends Component {
             display: 'block'
         }
 
+        var linkImage
+        if(this.state.links[0] === 'http://www.mycryptoapp.me/') {
+            linkImage = CryptoIcon
+        } else if (this.state.links[0] === 'http://angflooring.s3-website.us-east-2.amazonaws.com/') {
+            linkImage = ANGIcon
+        }
+
         if(this.state.links[0] === '') {
             projectLinksListItem.display = 'none'
         }
@@ -126,7 +133,7 @@ class  Projects extends Component {
                     <ModalBody>
                         <h4><u>Links</u></h4>
                         <ul className={classes.projectLinks}>
-                            <li style={projectLinksListItem}><a href={this.state.links[0]} target="_blank" rel="noopener noreferrer"><img className={classes.linksImageIcon} src={CryptoIcon} alt="" /></a></li>
+                            <li style={projectLinksListItem}><a href={this.state.links[0]} target="_blank" rel="noopener noreferrer"><img className={classes.linksImageIcon} src={linkImage} alt="" /></a></li>
                             <li><a href={this.state.links[1]} target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon></a></li>
                         </ul>
                     </ModalBody>

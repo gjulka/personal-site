@@ -1,18 +1,25 @@
 .Landing{
     height: 100vh;
-    background-color:#000940; 
+    background-color:#000000; 
     font-family: 'Encode Sans Expanded', sans-serif;
 
 }
 
+.particles {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
 .About{
-    position: relative;
+    position: absolute;
     top: 42.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 115px;
     width: 275px;
-    background: rgba(0, 0, 0, 0.712);
+    background: rgba(0, 0, 0, 0.719);
     border-radius: 10px;
     z-index: 11;
 }
@@ -67,7 +74,7 @@
         transform: translate(-50%, -50%);
         height: 175px;
         width: 295px;
-        background: rgba(0, 0, 0, 0.712);
+        background: rgba(0, 0, 0, 0.719);
         border-radius: 10px;
         z-index: 11;
     }
@@ -109,7 +116,7 @@
         transform: translate(-50%, -50%);
         height: 225px;
         width: 550px;
-        background: rgba(0, 0, 0, 0.712);
+        background: rgba(0, 0, 0, 0.719);
         border-radius: 10px;
         z-index: 11;
     }
@@ -152,7 +159,7 @@
         transform: translate(-50%, -50%);
         height: 250px;
         width: 600px;
-        background: rgba(0, 0, 0, 0.712);
+        background: rgba(0, 0, 0, 0.719);
         border-radius: 10px;
         z-index: 11;
     }
@@ -189,11 +196,11 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .About{
-        position: relative;
+        position: absolute;
         top: 50%;
         height: 250px;
         width: 600px;
-        background: rgba(0, 0, 0, 0.712);
+        background: rgba(0, 0, 0, 0.719);
         border-radius: 10px;
         z-index: 11;
     }
